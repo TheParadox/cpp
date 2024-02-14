@@ -1,0 +1,16 @@
+{
+    "version": "0.2.0",
+	"configurations": [
+		{
+			"name": "C++ cl.exe debug",
+			"type": "cppvsdbg",
+			"request": "launch",
+			"program": "${workspaceRoot}/bin/Debug/cpp_calculator.exe",
+			"args": [],
+			"stopAtEntry": false,
+			"cwd": "${workspaceFolder}",
+			"environment": [],
+			"console": "externalTerminal"
+		}
+	]
+}

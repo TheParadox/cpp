@@ -1,0 +1,18 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceRoot}/Source"
+            ],
+            "defines": [
+            ],
+            "browse": {
+                "path": [
+                    "${workspaceRoot}/Source"
+                ]
+            }
+        }
+    ],
+    "version": 4
+}
