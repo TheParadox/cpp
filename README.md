@@ -15,7 +15,7 @@ Compiler: MSVC 2022
 OS: Linux 
 UNTESTED
 
-### Version 2: GUI
+### Version 2: GUI -- In-Progress
 Move from a terminal based program to a simple GUI program.
 
 Plan:
