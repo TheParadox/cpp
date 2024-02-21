@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ResolveNugetPackages>false</ResolveNugetPackages>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{DD44B9B4-C545-3FB2-B46B-40631343ED43}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <WindowsTargetPlatformVersion>10.0.22000.0</WindowsTargetPlatformVersion>
+    <Platform>x64</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v143</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+V:\cmake\bin\cmake.exe -SV:/programming/GameStudios/_Game_Framework/Framework -BV:/programming/GameStudios/_Game_Framework/Framework --check-stamp-file V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">V:\cmake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;V:\cmake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;V:\cmake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;V:\cmake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;V:\cmake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;V:\cmake\share\cmake-3.23\Modules\FindThreads.cmake;V:\cmake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;V:\cmake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\cmake_uninstall.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3.pc.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3Config.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+V:\cmake\bin\cmake.exe -SV:/programming/GameStudios/_Game_Framework/Framework -BV:/programming/GameStudios/_Game_Framework/Framework --check-stamp-file V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">V:\cmake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;V:\cmake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;V:\cmake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;V:\cmake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;V:\cmake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;V:\cmake\share\cmake-3.23\Modules\FindThreads.cmake;V:\cmake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;V:\cmake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\cmake_uninstall.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3.pc.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3Config.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+V:\cmake\bin\cmake.exe -SV:/programming/GameStudios/_Game_Framework/Framework -BV:/programming/GameStudios/_Game_Framework/Framework --check-stamp-file V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">V:\cmake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;V:\cmake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;V:\cmake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;V:\cmake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;V:\cmake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;V:\cmake\share\cmake-3.23\Modules\FindThreads.cmake;V:\cmake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;V:\cmake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\cmake_uninstall.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3.pc.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3Config.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+V:\cmake\bin\cmake.exe -SV:/programming/GameStudios/_Game_Framework/Framework -BV:/programming/GameStudios/_Game_Framework/Framework --check-stamp-file V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">V:\cmake\share\cmake-3.23\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;V:\cmake\share\cmake-3.23\Modules\CMakeDependentOption.cmake;V:\cmake\share\cmake-3.23\Modules\CMakePackageConfigHelpers.cmake;V:\cmake\share\cmake-3.23\Modules\CheckCSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\CheckIncludeFile.cmake;V:\cmake\share\cmake-3.23\Modules\CheckLibraryExists.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageHandleStandardArgs.cmake;V:\cmake\share\cmake-3.23\Modules\FindPackageMessage.cmake;V:\cmake\share\cmake-3.23\Modules\FindThreads.cmake;V:\cmake\share\cmake-3.23\Modules\GNUInstallDirs.cmake;V:\cmake\share\cmake-3.23\Modules\Internal\CheckSourceCompiles.cmake;V:\cmake\share\cmake-3.23\Modules\WriteBasicConfigVersionFile.cmake;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\cmake_uninstall.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3.pc.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw3Config.cmake.in;V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw_config.h.in;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="V:\programming\GameStudios\_Game_Framework\Framework\ZERO_CHECK.vcxproj">
+      <Project>{D5135EBB-DA35-3018-9129-9D20A08F8FF7}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="V:\programming\GameStudios\_Game_Framework\Framework\vendor\glfw\src\glfw.vcxproj">
+      <Project>{FB656FCB-B029-3683-B928-97A88E72F991}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

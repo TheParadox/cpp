@@ -1,0 +1,18 @@
+# CMake generation dependency list for this directory.
+V:/cmake/share/cmake-3.23/Modules/BasicConfigVersion-SameMajorVersion.cmake.in
+V:/cmake/share/cmake-3.23/Modules/CMakeDependentOption.cmake
+V:/cmake/share/cmake-3.23/Modules/CMakePackageConfigHelpers.cmake
+V:/cmake/share/cmake-3.23/Modules/CheckCSourceCompiles.cmake
+V:/cmake/share/cmake-3.23/Modules/CheckIncludeFile.cmake
+V:/cmake/share/cmake-3.23/Modules/CheckLibraryExists.cmake
+V:/cmake/share/cmake-3.23/Modules/FindPackageHandleStandardArgs.cmake
+V:/cmake/share/cmake-3.23/Modules/FindPackageMessage.cmake
+V:/cmake/share/cmake-3.23/Modules/FindThreads.cmake
+V:/cmake/share/cmake-3.23/Modules/GNUInstallDirs.cmake
+V:/cmake/share/cmake-3.23/Modules/Internal/CheckSourceCompiles.cmake
+V:/cmake/share/cmake-3.23/Modules/WriteBasicConfigVersionFile.cmake
+V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/CMakeLists.txt
+V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/cmake_uninstall.cmake.in
+V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/src/glfw3.pc.in
+V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/src/glfw3Config.cmake.in
+V:/programming/GameStudios/_Game_Framework/Framework/vendor/glfw/src/glfw_config.h.in
